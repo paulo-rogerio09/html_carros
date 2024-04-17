@@ -8,7 +8,7 @@
 }
 #esquerdo{
     height: 500px;
-    width: 250px;
+    width: 300px;
     background-color: #E28525;
     padding:25px;
     border-top-left-radius: 10px;
@@ -16,7 +16,7 @@
 }
 #direito{
     height: 500px;
-    width: 250px;
+    width: 300px;
     background-color: #016972;
     padding:25px;
     border-top-right-radius: 10px;
@@ -24,7 +24,7 @@
 }
 #meio{
     height: 500px;
-    width: 250px;
+    width: 300px;
     background-color: #00403F;
     padding:25px
 }
@@ -83,13 +83,17 @@
     height: 40px;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 800px) {
     #todo{
         display: block;
+        margin-top: 40px;
+        margin-left: 40px;
+        margin-bottom: 40px;
     }
     #esquerdo{
         border-top-right-radius: 10px ;
         border-bottom-left-radius: 0px;
+        margin-right: 100px;
     }
     #direito{
         border-top-right-radius: 0px ;

@@ -86,9 +86,9 @@
 @media screen and (max-width: 800px) {
     #todo{
         display: block;
-        margin-top: 40px;
-        margin-left: 40px;
-        margin-bottom: 40px;
+        margin-top: 45px;
+        margin-left: 45px;
+        margin-bottom: 45px;
     }
     #esquerdo{
         border-top-right-radius: 10px ;
